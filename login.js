@@ -13,6 +13,6 @@ function login(event) {
     if(userName === käyttäjätunnus && password === salasana) {
         window.location.href = "adminPage.html";
     } else {
-        alert("Käyttäjätunnus tai salasana on väärä!")
+        alert("Annettu käyttäjätunnus tai salasana on virheellinen!")
     }
 } 
