@@ -4,7 +4,7 @@ document.getElementById("addVoteButton").addEventListener("click", showForm);
 document.getElementById("addVoteForm").addEventListener("submit", addVote);
 document.getElementById("deleteVote").addEventListener("click", deleteVote);
 document.getElementById("adminLogoutBtn").addEventListener("click", adminLogout);
-document.getElementById("startNewVoteButton").addEventListener("click", startNewVote);
+document.getElementById("addVote").addEventListener("click", addVote);
 
 const voteData = [
     {
