@@ -14,13 +14,13 @@ const voteData = [
     {
         id: 2,
         title: "Äänestys 2",
-        question: "Mikä Esedulla on parasta?",
+        question: "Mikä on Esedulla parasta?",
         options: ["Kaverit", "Opiskelu", "En tiedä"],
     },
     {
         id: 3,
         title: "Äänestys 3",
-        question: "Monta tuntia päivässä opiskelet",
+        question: "Monta tuntia päivässä opiskelet?",
         options: ["8 tuntia", "7 tuntia", "6 tuntia"],
     }
 ];
