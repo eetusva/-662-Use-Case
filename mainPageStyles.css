@@ -1,6 +1,5 @@
-
 body {
-    background-image: linear-gradient(to top, #5b6f6f 0%, #071f2c 100%);
+    background-image: linear-gradient(to top, #e68a00 0%, #ffd966 100%); 
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -32,12 +31,12 @@ header {
     height: 50px;
     border-radius: 8px;
     border-style: none;
-    background-color: #404b50;
+    background-color: #e68a00; 
     color: #ffffff;
 }
 
 #showVotesBtn:hover {
-    background-color: #5f7373;
+    background-color: #ffd966; 
 }
 
 #votes {
@@ -99,12 +98,12 @@ header {
     position: absolute;
     right: 15px;
     top: 15px;
-    background-color: #404b50;
+    background-color: #e68a00; 
     border-radius: 8px;
     border-style: none;
     color: #ffffff;
 }
 
 #adminLoginBtn:hover {
-    background-color: #5f7373;
+    background-color: #ffd966; 
 }
