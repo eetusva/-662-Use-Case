@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top, #5b6f6f 0%, #071f2c 100%);
+    background-image: linear-gradient(to top, #ff8000 0%, #ffa64d 100%); 
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -32,13 +32,13 @@ header {
     height: 50px;
     border-radius: 8px;
     border-style: none;
-    background-color: #404b50;
+    background-color: #ff9933; 
     margin: 0 10px;
     color: #fff;
 }
 
 #showVotesBtn:hover, #addVoteButton:hover {
-    background-color: #5f7373;
+    background-color: #ffbf80; 
 }
 
 #votes {
@@ -52,8 +52,7 @@ header {
     font-size: 1.2rem;
     text-decoration: none;
     margin-bottom: 2px;
-    color: #ffffff;
-    
+    color: #ffffff;  
 }
 
 #voteList a:hover {
@@ -72,7 +71,7 @@ header {
     width: 50%;
     margin-top: 20px;
     padding: 20px;
-    background-color: #26404d;
+    background-color: #ff8000; 
     border-radius: 8px;
 }
 
@@ -82,11 +81,11 @@ header {
     border-radius: 5px;
     height: 20px;
     cursor: pointer;
-    background-color: #656a6c;
+    background-color: #ff9933; 
 }
 
 #voteSection button:hover {
-    background-color: #858788;
+    background-color: #ffbf80; 
 }
 
 #displayResults {
@@ -127,12 +126,12 @@ header {
     position: absolute;
     right: 15px;
     top: 15px;
-    background-color: #404b50;
+    background-color: #ff9933; 
     border-radius: 8px;
     border-style: none;
     color: #fff;
 }
 
 #adminLogoutBtn:hover {
-    background-color: #5f7373;
+    background-color: #ffbf80; 
 }
