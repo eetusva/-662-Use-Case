@@ -1,15 +1,10 @@
 
-// Äänestysten näyttäminen
 document.getElementById("showVotesBtn").addEventListener("click", showVotes);
-// Äänestysten lisäys lomakkeen näyttäminen
 document.getElementById("addVoteButton").addEventListener("click", showForm);
-// Äänestyksen lisääminen
 document.getElementById("addVoteForm").addEventListener("submit", addVote);
-// Äänestyksen poistaminen
 document.getElementById("deleteVote").addEventListener("click", deleteVote);
-// Kirjautuminen ulos ylläpito sivulta
 document.getElementById("adminLogoutBtn").addEventListener("click", adminLogout);
-
+--tarkastaviel
 const voteData = [
     {
         id: 1,
