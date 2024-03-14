@@ -4,7 +4,6 @@ document.getElementById("addVoteButton").addEventListener("click", showForm);
 document.getElementById("addVoteForm").addEventListener("submit", addVote);
 document.getElementById("deleteVote").addEventListener("click", deleteVote);
 document.getElementById("adminLogoutBtn").addEventListener("click", adminLogout);
---tarkastaviel
 const voteData = [
     {
         id: 1,
