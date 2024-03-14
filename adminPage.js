@@ -239,19 +239,15 @@ function adminLogout() {
 }
 
 function startNewVote() {
-    // Näytä lomake uuden äänestyksen aloittamiseksi
     document.getElementById("addVote").style.display = "block";
     
-    // Piilota muut osiot
     document.getElementById("votes").style.display = "none";
     document.getElementById("voteView").style.display = "none";
     document.getElementById("displayResults").style.display = "none";
     
-    // Tyhjennä lomakkeen kentät
     document.getElementById("voteTitle").value = "";
     document.getElementById("voteQuestion").value = "";
     document.getElementById("voteOptions").value = "";
     
-    // Näytä äänestykset uudelleen
     showVotes();
 }
