@@ -1,10 +1,9 @@
-
 document.getElementById("showVotesBtn").addEventListener("click", showVotes);
 document.getElementById("addVoteButton").addEventListener("click", showForm);
 document.getElementById("addVoteForm").addEventListener("submit", addVote);
 document.getElementById("deleteVote").addEventListener("click", deleteVote);
 document.getElementById("adminLogoutBtn").addEventListener("click", adminLogout);
-document.getElementById("addVote").addEventListener("click", addVote);
+document.getElementById("startNewVoteButton").addEventListener("click", startNewVote);
 
 const voteData = [
     {
@@ -237,4 +236,22 @@ function deleteVote(vote) {
 
 function adminLogout() {
     window.location.href = "index.html";
+}
+
+function startNewVote() {
+    // Näytä lomake uuden äänestyksen aloittamiseksi
+    document.getElementById("addVote").style.display = "block";
+    
+    // Piilota muut osiot
+    document.getElementById("votes").style.display = "none";
+    document.getElementById("voteView").style.display = "none";
+    document.getElementById("displayResults").style.display = "none";
+    
+    // Tyhjennä lomakkeen kentät
+    document.getElementById("voteTitle").value = "";
+    document.getElementById("voteQuestion").value = "";
+    document.getElementById("voteOptions").value = "";
+    
+    // Näytä äänestykset uudelleen
+    showVotes();
 }
