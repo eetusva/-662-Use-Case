@@ -59,7 +59,7 @@ function showVotes() {
         });
         votesContainer.style.display = "block";
     } else {
-        console.log("Äänestyksiä ei löytynyt!");
+        console.log("Ei äänestyksiä!");
     }
 }   
 
@@ -123,11 +123,11 @@ function castVote(vote) {
         localStorage.setItem("votes", JSON.stringify(storedVotes));
 
         const voteView = document.getElementById("voteView");
-        let msg = "Kiitos äänestäsi!"
+        let msg = "Kiitos äänestämisestä!"
         voteView.innerHTML = msg;
         document.getElementById("displayResults").style.display = "none";
     } else {
-        alert("Valitse äänestysvaihtoehto!")
+        alert("Valitse vaihtoehto!")
     }
 }
 
@@ -170,7 +170,7 @@ function displayResults(vote, voteCount) {
     results.innerHTML = "";
 
     const title = document.createElement("h3");
-    title.textContent = "Äänestystulokset";
+    title.textContent = "Tulokset";
     results.appendChild(title);
 
     for (let i = 0; i < vote.options.length; i++) {
