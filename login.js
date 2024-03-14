@@ -1,6 +1,6 @@
 
-const käyttäjätunnus = "admin";
-const salasana = "admin123";
+const käyttäjätunnus = "testi";
+const salasana = "testi";
 
 // Sisäänkirjautuminen
 document.getElementById("loginForm").addEventListener("submit", login);
