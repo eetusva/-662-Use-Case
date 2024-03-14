@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting app</title>
+    <link rel="stylesheet" href="adminPageStyles.css">
+</head>
+<body>
+
+    <header>
+        <h2 id="title">Täällä voit hallinoida äänestyksiä</h2>
+    </header>
+
+    <div id="browseAndAddVotes">
+        <div id="browseVotes">
+            <button id="showVotesBtn">Katso äänestyksiä</button>
+            <button id="addVoteButton">Lisää äänestyksiä</button>
+        </div>
+    </div>
+    <div id="votes" display="none">
+        <ul id="voteList"></ul>
+    </div>
+    <div id="voteSection">
+        <div id="voteView" style="display: none;"></div>
+        <div id="displayResults" style="display: none;"></div>
+        <div id="addVote" style="display: none;">
+            <h3>Lisää uusi äänestys</h3>
+            <form id="addVoteForm">
+                <div class="form-group">
+                    <label for="voteTitle">Äänestyksen nimi:</label>
+                    <input type="text" id="voteTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="voteQuestion">Kysymys:</label>
+                    <input type="text" id="voteQuestion" required>
+                </div>
+                <div class="form-group">
+                    <label for="voteOptions">Äänestys vaihtoehdot:</label>
+                    <input type="text" id="voteOptions" required>
+                </div>
+                <button type="submit">Lisää äänestys</button>
+            </form>
+            <div id="deleteVote" style="display: none;"></div>
+        </div>
+    </div>
+
+    <div id="adminLogout">
+        <button id="adminLogoutBtn">Kirjaudu ulos</button>
+    </div>
+    
+</body>
+
+    <script src="adminPage.js"></script>
+
+</html>

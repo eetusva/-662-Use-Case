@@ -1,0 +1,110 @@
+
+body {
+    background-image: linear-gradient(to top, #5b6f6f 0%, #071f2c 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+   text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+#browseAndAddVotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#browseVotes {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+#showVotesBtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #404b50;
+    color: #ffffff;
+}
+
+#showVotesBtn:hover {
+    background-color: #5f7373;
+}
+
+#votes {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#voteList a {
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+#voteList a:hover {
+   text-decoration: underline;
+}
+
+#voteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#voteView, #displayResults {
+    display: none;
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #26404d;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+#voteSection button {
+    margin: 20px 2px;
+    border-style: none;
+    border-radius: 5px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #656a6c;
+}
+
+#voteSection button:hover {
+    background-color: #858788;
+}
+
+#displayResults {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#adminLoginBtn {
+    width: 140px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: #404b50;
+    border-radius: 8px;
+    border-style: none;
+    color: #ffffff;
+}
+
+#adminLoginBtn:hover {
+    background-color: #5f7373;
+}

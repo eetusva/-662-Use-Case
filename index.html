@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting app</title>
+    <link rel="stylesheet" href="mainPageStyles.css">
+</head>
+<body>
+
+    <header>
+        <h2 id="title">Tervetuloa äänestämään!</h2>
+    </header>
+    <div id="browseVotes">
+        <button id="showVotesBtn">Katso äänestyksiä</button>
+    </div>
+    <div id="votes" display="none">
+        <ul id="voteList"></ul>
+    </div>
+    <div id="voteSection" style="display: flex;">
+        <div id="voteView" style="display: none;"></div>
+        <div id="displayResults" style="display: none;"></div>
+    </div>
+
+    <div id="adminLogin">
+        <button id="adminLoginBtn">Kirjaudu ylläpitäjänä</button>
+    </div>
+    
+</body>
+
+<script src="main.js"></script>
+
+</html>
