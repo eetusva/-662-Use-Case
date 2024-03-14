@@ -8,20 +8,20 @@ const voteData = [
     {
         id: 1,
         title: "Äänestys 1",
-        question: "Mikä ohjelmointi kieli on sinun suosikkisi?",
-        options: ["JavaScript", "Python", "Java"],
+        question: "Mikä on suosikkiruokasi esedulla?",
+        options: ["Paistetut muikut", "Pinaattikeitto", "Nugetit"],
     },
     {
         id: 2,
         title: "Äänestys 2",
-        question: "Kuinka paljon pidät ohjelmoinnista?",
-        options: ["Todella paljon", "Hieman", "En yhtään"],
+        question: "Mikä Esedulla on parasta?",
+        options: ["Kaverit", "Opiskelu", "En tiedä"],
     },
     {
         id: 3,
         title: "Äänestys 3",
-        question: "Kuinka paljon käytät aikaa ohjelmointiin päivittäin?",
-        options: ["Koko päivän", "Muutaman tunnin", "En juuri lainkaan"],
+        question: "Monta tuntia päivässä opiskelet",
+        options: ["8 tuntia", "7 tuntia", "6 tuntia"],
     }
 ];
 
